@@ -3,30 +3,30 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 26 31 44;
+    --foreground: 228 16% 22%;
 
     --card: 0 0% 100%;
-    --card-foreground: 26 31 44;
+    --card-foreground: 228 16% 22%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 26 31 44;
+    --popover-foreground: 228 16% 22%;
 
     --primary: 336 83% 85%;
-    --primary-foreground: 26 31 44;
+    --primary-foreground: 228 16% 22%;
 
     --secondary: 335 35% 65%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 220 14% 96%;
-    --muted-foreground: 240 6% 60%;
+    --muted-foreground: 220 8% 46%;
 
     --accent: 336 83% 95%;
-    --accent-foreground: 26 31 44;
+    --accent-foreground: 228 16% 22%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -38,27 +38,27 @@
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 26 31 44;
+    --sidebar-foreground: 228 16% 22%;
     --sidebar-primary: 336 83% 85%;
-    --sidebar-primary-foreground: 26 31 44;
+    --sidebar-primary-foreground: 228 16% 22%;
     --sidebar-accent: 336 83% 95%;
-    --sidebar-accent-foreground: 26 31 44;
+    --sidebar-accent-foreground: 228 16% 22%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 336 83% 85%;
   }
 
   .dark {
-    --background: 26 31 44;
+    --background: 228 16% 12%;
     --foreground: 210 40% 98%;
 
-    --card: 26 31 44;
+    --card: 228 16% 12%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 26 31 44;
+    --popover: 228 16% 12%;
     --popover-foreground: 210 40% 98%;
 
     --primary: 336 83% 85%;
-    --primary-foreground: 26 31 44;
+    --primary-foreground: 228 16% 22%;
 
     --secondary: 335 35% 65%;
     --secondary-foreground: 210 40% 98%;
@@ -79,7 +79,7 @@
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 336 83% 85%;
-    --sidebar-primary-foreground: 26 31 44;
+    --sidebar-primary-foreground: 228 16% 22%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
@@ -95,6 +95,10 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
   }
 }
 
@@ -124,3 +128,4 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
