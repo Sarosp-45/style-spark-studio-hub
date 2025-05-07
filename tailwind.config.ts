@@ -64,13 +64,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				fashion: {
-					purple: '#9b87f5',
-					'dark-purple': '#6E59A5',
-					'light-purple': '#E5DEFF',
-					'soft-pink': '#FFDEE2',
-					'soft-peach': '#FDE1D3',
-					'soft-blue': '#D3E4FD',
-					'neutral-gray': '#8E9196',
+					pink: '#FFCCD5',
+					'light-pink': '#FFECF1',
+					lavender: '#E5DEFF',
+					peach: '#FDE1D3',
+					mint: '#E0F5E9',
+					cream: '#FFF9E7',
+					beige: '#F5F1E8',
+					'neutral-gray': '#ADB5BD',
 				}
 			},
 			borderRadius: {

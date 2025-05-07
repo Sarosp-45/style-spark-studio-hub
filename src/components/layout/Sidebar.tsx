@@ -65,7 +65,7 @@ export function Sidebar() {
     >
       <div className="flex items-center justify-between h-16 px-4 border-b">
         {!collapsed && (
-          <Link to="/" className="font-medium text-lg text-fashion-purple">
+          <Link to="/" className="font-medium text-lg text-fashion-pink">
             StyleSpark
           </Link>
         )}
@@ -87,8 +87,8 @@ export function Sidebar() {
               className={cn(
                 "flex items-center px-2 py-2 text-sm font-medium rounded-md transition-colors",
                 location.pathname === item.href
-                  ? "bg-primary text-white"
-                  : "text-muted-foreground hover:bg-muted"
+                  ? "bg-fashion-light-pink text-fashion-neutral-gray"
+                  : "text-muted-foreground hover:bg-fashion-cream"
               )}
             >
               <item.icon className={cn("mr-3 h-5 w-5", collapsed ? "mx-auto" : "")} />
