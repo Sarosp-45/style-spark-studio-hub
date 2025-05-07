@@ -64,14 +64,17 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				fashion: {
-					pink: '#FFCCD5',
-					'light-pink': '#FFECF1',
-					lavender: '#E5DEFF',
-					peach: '#FDE1D3',
-					mint: '#E0F5E9',
-					cream: '#F9F7F4',
-					beige: '#F7F5F2',
-					'neutral-gray': '#ADB5BD',
+					pink: '#F8B7CD',
+					'light-pink': '#FEF0F5',
+					lavender: '#E0E1FF',
+					peach: '#FFEADD',
+					mint: '#E6F7EF',
+					cream: '#FFFAF4',
+					beige: '#F9F6F2',
+					'neutral-gray': '#959DA6',
+					mauve: '#D8C4DC',
+					'sky-blue': '#D2E9F3',
+					'soft-green': '#D9EAD3',
 				}
 			},
 			borderRadius: {
@@ -95,11 +98,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.3s ease-out'
 			}
 		}
 	},
