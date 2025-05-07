@@ -9,11 +9,11 @@ interface PageLayoutProps {
 
 export function PageLayout({ children }: PageLayoutProps) {
   return (
-    <div className="flex h-screen overflow-hidden bg-fashion-beige bg-opacity-30">
+    <div className="flex h-screen overflow-hidden bg-white">
       <Sidebar />
       <div className="flex flex-col flex-1 overflow-hidden">
         <Header />
-        <main className="flex-1 overflow-auto p-6">{children}</main>
+        <main className="flex-1 overflow-auto p-6 bg-fashion-beige bg-opacity-30">{children}</main>
       </div>
     </div>
   );

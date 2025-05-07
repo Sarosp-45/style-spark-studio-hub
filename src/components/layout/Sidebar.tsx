@@ -59,7 +59,7 @@ export function Sidebar() {
   return (
     <div
       className={cn(
-        "border-r bg-sidebar h-full transition-all duration-300",
+        "border-r bg-sidebar h-full transition-all duration-300 shadow-sm",
         collapsed ? "w-16" : "w-64"
       )}
     >
@@ -87,8 +87,8 @@ export function Sidebar() {
               className={cn(
                 "flex items-center px-2 py-2 text-sm font-medium rounded-md transition-colors",
                 location.pathname === item.href
-                  ? "bg-fashion-light-pink text-fashion-neutral-gray"
-                  : "text-muted-foreground hover:bg-fashion-cream"
+                  ? "bg-fashion-light-pink bg-opacity-30 text-fashion-neutral-gray"
+                  : "text-muted-foreground hover:bg-fashion-beige"
               )}
             >
               <item.icon className={cn("mr-3 h-5 w-5", collapsed ? "mx-auto" : "")} />

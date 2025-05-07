@@ -15,7 +15,7 @@ export function Header() {
   const [searchValue, setSearchValue] = useState("");
   
   return (
-    <header className="flex h-16 items-center px-6 border-b bg-white">
+    <header className="flex h-16 items-center px-6 border-b bg-white shadow-sm">
       <div className="flex flex-1 items-center gap-2">
         <Search className="h-4 w-4 text-muted-foreground" />
         <Input
@@ -23,7 +23,7 @@ export function Header() {
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
           placeholder="Search sketches, projects..."
-          className="w-[300px] bg-fashion-light-pink bg-opacity-20"
+          className="w-[300px] bg-fashion-light-pink bg-opacity-10"
         />
       </div>
       <div className="flex items-center gap-4">
@@ -35,7 +35,7 @@ export function Header() {
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" className="relative h-8 w-8 rounded-full">
               <Avatar className="h-8 w-8">
-                <AvatarFallback className="bg-fashion-peach text-foreground">FD</AvatarFallback>
+                <AvatarFallback className="bg-fashion-lavender text-foreground">FD</AvatarFallback>
               </Avatar>
             </Button>
           </DropdownMenuTrigger>

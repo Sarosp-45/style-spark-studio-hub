@@ -69,8 +69,8 @@ export default {
 					lavender: '#E5DEFF',
 					peach: '#FDE1D3',
 					mint: '#E0F5E9',
-					cream: '#FFF9E7',
-					beige: '#F5F1E8',
+					cream: '#F9F7F4',
+					beige: '#F7F5F2',
 					'neutral-gray': '#ADB5BD',
 				}
 			},
